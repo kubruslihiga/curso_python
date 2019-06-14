@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Tela com minhas configurações</title>
+</head>
+
+<body>
+    <h1>Minhas configurações</h1>
+    <h3>{{ username }} - <a href="/logout">Logout</a></h3>
+    <form action="/usr/subr" method="post" enctype="multipart/form-data">
+        <div>
+            <label><input type="text" maxlength="30" name="nome" />Seu nome, motherfucker</label>
+        </div>
+        <div>
+            <label><input type="text" maxlength="30" name="idade" />Sua idade, motherfucker</label>
+        </div>
+        <div>
+            <label><input type="file" name="arquivo" />Um arquivo, motherfucker</label>
+        </div>
+        <div>
+            <button type="submit">Submeter formulário</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>

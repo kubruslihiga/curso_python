@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+<script src="/static/js/bootstrap.min.js"></script>
+<h1>Template carregado</h1>
+<button class="btn btn-primary">Meu botao</button>
+
+{% if urls %}
+<ul>
+    {% for u in urls %}
+    <li>{{u.url}}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<span>teste</span>

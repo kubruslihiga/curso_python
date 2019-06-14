@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+section.header, section.content {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section.header h1 {
+    font-weight: bold;
+}
+
+section.content h2 {
+    width: 100%;
+}
+
+div.image {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 40%;
+}
+
+div.image div.samuel_quote {
+    position: absolute;
+    display: none;
+    text-align: center;
+    padding: 0.6em;
+    color: white;
+    background-color: rgba(100, 100, 100, 0.85);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+div.image:hover div.samuel_quote {
+    display: flex;
+    align-items: center;
+}
+
+div.image img {
+    border-radius: 0.6em;
+}
